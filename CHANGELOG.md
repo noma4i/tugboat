@@ -12,7 +12,7 @@
 - Change the default image [by [@blom](https://github.com/blom), [@pearkes](https://github.com/pearkes)] [#100](https://github.com/pearkes/tugboat/pull/100)
 - Add `[OPTIONS]` to images description [by [@blom](https://github.com/blom), [@pearkes](https://github.com/pearkes)] [#99](https://github.com/pearkes/tugboat/pull/99)
 - Add MRI 1.9.2 and 2.1.0 to .travis.yml [by [@blom](https://github.com/blom), [@pearkes](https://github.com/pearkes)] [#94](https://github.com/pearkes/tugboat/pull/94)
-- No more 1.8.7 [by [@blom](https://github.com/blom) [#93](https://github.com/pearkes/tugboat/pull/93)
+- No more 1.8.7 [by [@blom](https://github.com/blom)] [#93](https://github.com/pearkes/tugboat/pull/93)
 - destroy and info command [by [@PierreFrisch](https://github.com/PierreFrisch), [@pearkes](https://github.com/pearkes)] [#91](https://github.com/pearkes/tugboat/pull/91)
 
 # 0.2.0 and lower (See CHANGELOG.old.md)
