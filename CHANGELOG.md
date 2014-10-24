@@ -1,19 +1,19 @@
 # 1.0.0 (Unreleased)
 
-- Adds slugs to regions list. [by @blakelapierre, @petems] [#121](https://github.com/pearkes/tugboat/pull/121]
-- Add spec around confirming action with user [by @petems] [#116](https://github.com/pearkes/tugboat/pull/116]
-- improves droplets list/info prints [by @petems] [#115](https://github.com/pearkes/tugboat/pull/115]
-- Trying to get that Coveralls % higher... [by @petems] [#113](https://github.com/pearkes/tugboat/pull/113]
-- Specs for fuzzy matching of images [by @petems] [#112](https://github.com/pearkes/tugboat/pull/112]
-- Fix error in 'authorize_cli_spec' [by @petems] [#111](https://github.com/pearkes/tugboat/pull/111]
-- Enable simplecov HTML formatter and Coveralls [by @petems] [#110](https://github.com/pearkes/tugboat/pull/110]
-- New API endpoint tests failing on Travis, work fine locally [#109](https://github.com/pearkes/tugboat/pull/109]
-- Change link for api [by @petems, @pearkes] [#108](https://github.com/pearkes/tugboat/pull/108]
-- Update the link to get v1 API keys in the README. [by @wearhere, @pearkes] [#103](https://github.com/pearkes/tugboat/pull/103]
-- Change the default image [by @blom, @pearkes] [#100](https://github.com/pearkes/tugboat/pull/100]
-- Add `[OPTIONS]` to images description [by @blom, @pearkes] [#99](https://github.com/pearkes/tugboat/pull/99]
-- Add MRI 1.9.2 and 2.1.0 to .travis.yml [by @blom, @pearkes] [#94](https://github.com/pearkes/tugboat/pull/94]
-- No more 1.8.7 [by @blom] [#93](https://github.com/pearkes/tugboat/pull/93]
-- destroy and info command [by @PierreFrisch, @pearkes] [#91](https://github.com/pearkes/tugboat/pull/91]
+- Adds slugs to regions list. [by @blakelapierre, @petems] [#121](https://github.com/pearkes/tugboat/pull/121)
+- Add spec around confirming action with user [by @petems] [#116](https://github.com/pearkes/tugboat/pull/116)
+- improves droplets list/info prints [by @petems] [#115](https://github.com/pearkes/tugboat/pull/115)
+- Trying to get that Coveralls % higher... [by @petems] [#113](https://github.com/pearkes/tugboat/pull/113)
+- Specs for fuzzy matching of images [by @petems] [#112](https://github.com/pearkes/tugboat/pull/112)
+- Fix error in 'authorize_cli_spec' [by @petems] [#111](https://github.com/pearkes/tugboat/pull/111)
+- Enable simplecov HTML formatter and Coveralls [by @petems] [#110](https://github.com/pearkes/tugboat/pull/110)
+- New API endpoint tests failing on Travis, work fine locally [#109](https://github.com/pearkes/tugboat/pull/109)
+- Change link for api [by @petems, @pearkes] [#108](https://github.com/pearkes/tugboat/pull/108)
+- Update the link to get v1 API keys in the README. [by @wearhere, @pearkes] [#103](https://github.com/pearkes/tugboat/pull/103)
+- Change the default image [by @blom, @pearkes] [#100](https://github.com/pearkes/tugboat/pull/100)
+- Add `[OPTIONS]` to images description [by @blom, @pearkes] [#99](https://github.com/pearkes/tugboat/pull/99)
+- Add MRI 1.9.2 and 2.1.0 to .travis.yml [by @blom, @pearkes] [#94](https://github.com/pearkes/tugboat/pull/94)
+- No more 1.8.7 [by @blom] [#93](https://github.com/pearkes/tugboat/pull/93)
+- destroy and info command [by @PierreFrisch, @pearkes] [#91](https://github.com/pearkes/tugboat/pull/91)
 
-- 0.2.0 and lower (See CHANGELOG.old.md)
+# 0.2.0 and lower (See CHANGELOG.old.md)
