@@ -3,9 +3,9 @@ module Tugboat
     class ListImages < Base
       def call(env)
         ocean = env['barge']
-        my_images = ocean.images.list :filter => "my_images"
+        my_images = ocean.image.all :filter => "my_images"
         if env["user_show_global_images"]
-          global = ocean.images.list :filter => "global"
+          global = ocean.image.all :filter => "global"
         end
 
         say "My Images:"
