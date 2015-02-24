@@ -1,6 +1,26 @@
-# 1.0.0 (Unreleased)
+# 1.0.0
 
-
+*   [#159](https://github.com/pearkes/tugboat/pull/159) Add docs for #153 [by [@petems](https://github.com/petems)]
+*   [#157](https://github.com/pearkes/tugboat/pull/157) Update docs to clarify add-key command [by [@petems](https://github.com/petems)]
+*   [#156](https://github.com/pearkes/tugboat/pull/156) Run cucumber as part of the rake default task [by [@petems](https://github.com/petems)]
+*   [#155](https://github.com/pearkes/tugboat/pull/155) Change to expand path from ssh_key_path [by [@petems](https://github.com/petems)]
+*   [#154](https://github.com/pearkes/tugboat/pull/154) Change default user to 'root' [by [@petems](https://github.com/petems)]
+*   [#153](https://github.com/pearkes/tugboat/pull/153) Add Documentation for #106 [by [@petems](https://github.com/petems)]
+*   [#152](https://github.com/pearkes/tugboat/pull/152) Fixes incorrect link [by [@petems](https://github.com/petems)]
+*   [#151](https://github.com/pearkes/tugboat/pull/151) Add config cli method [by [@petems](https://github.com/petems)]
+*   [#150](https://github.com/pearkes/tugboat/pull/150) Change to Docker Travis [by [@petems](https://github.com/petems)]
+*   [#147](https://github.com/pearkes/tugboat/pull/147) Change the default image and region [by [@JamshedVesuna](https://github.com/JamshedVesuna), [@petems](https://github.com/petems)]
+*   [#146](https://github.com/pearkes/tugboat/pull/146) Resolve the SSH key path later. [by [@Ferada](https://github.com/ferada), [@petems](https://github.com/petems)]
+*   [#145](https://github.com/pearkes/tugboat/pull/145) Add configuration option for using the public IP. [by [@Ferada](https://github.com/ferada), [@petems](https://github.com/petems)]
+*   [#143](https://github.com/pearkes/tugboat/pull/143) Create help [by [@wadtech](https://github.com/wadtech), [@petems](https://github.com/petems)]
+*   [#141](https://github.com/pearkes/tugboat/pull/141) Fix typo [by [@seanhussey](https://github.com/seanhussey), [@petems](https://github.com/petems)]
+*   [#140](https://github.com/pearkes/tugboat/pull/140) Fix API key redacting for DEBUG=2 [by [@petems](https://github.com/petems)]
+*   [#139](https://github.com/pearkes/tugboat/pull/139) Handle HTML Error responses [by [@petems](https://github.com/petems)]
+*   [#137](https://github.com/pearkes/tugboat/pull/137) Changes to URL [by [@petems](https://github.com/petems)]
+*   [#136](https://github.com/pearkes/tugboat/pull/136) clarification about add-key [by [@petems](https://github.com/petems)]
+*   [#131](https://github.com/pearkes/tugboat/pull/131) root would be a better default username [by [@petems](https://github.com/petems)]
+*   [#129](https://github.com/pearkes/tugboat/pull/129) fix API URL in cli.rb [by [@brandondrew](https://github.com/brandondrew), [@petems](https://github.com/petems)]
+*   [#158](https://github.com/pearkes/tugboat/pull/158) Update prompt text [by [@petems](https://github.com/petems)]
 *   [#121](https://github.com/pearkes/tugboat/pull/121) Adds slugs to regions list. [by [@blakelapierre](https://github.com/blakelapierre), [@petems](https://github.com/petems)]
 *   [#116](https://github.com/pearkes/tugboat/pull/116) Add spec around confirming action with user [by [@petems](https://github.com/petems)]
 *   [#115](https://github.com/pearkes/tugboat/pull/115) improves droplets list/info prints [by [@petems](https://github.com/petems)]
@@ -19,4 +39,4 @@
 *   [#91](https://github.com/pearkes/tugboat/pull/91) destroy and info command [by [@PierreFrisch](https://github.com/PierreFrisch), [@pearkes](https://github.com/pearkes)]
 *   [#77](https://github.com/pearkes/tugboat/pull/77) Improves droplets list/info prints [by [@nofxx](https://github.com/nofxx)]
 
-# 0.2.0 and lower (See CHANGELOG.old.md)
+# 0.2.0 and lower (See [the old changelog](OLD_CHANGELOG.md))
