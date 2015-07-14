@@ -41,6 +41,8 @@ module Tugboat
 
         host_string = "#{ssh_user}@#{host_ip}"
 
+        say "SSH-ing as: #{host_string}", :green
+
         options << host_string
 
         if env["user_droplet_ssh_command"]
