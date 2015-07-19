@@ -4,7 +4,7 @@ module Tugboat
       def call(env)
         ocean = env['barge']
 
-        req = ocean.droplets.show env["droplet_id"]
+        req = ocean.droplet.show env["droplet_id"]
 
         if req.status == "ERROR"
           say "#{req.status}: #{req.error_message}", :red
@@ -23,16 +23,17 @@ module Tugboat
         say "Name:             #{droplet.name}"
         say "ID:               #{droplet.id}"
         say "Status:           #{status_color}#{droplet.status}#{CLEAR}"
-        say "IP:               #{droplet.ip_address}"
+        say "IP4:              #{droplet.networks.v4[0].ip_address}"
+        say "IP6:              #{droplet.networks.v6[0].ip_address}"
 
         if droplet.private_ip_address
 	        say "Private IP:       #{droplet.private_ip_address}"
 	      end
 
-        say "Region ID:        #{droplet.region_id}"
-        say "Image ID:         #{droplet.image_id}"
-        say "Size ID:          #{droplet.size_id}"
-        say "Backups Active:   #{droplet.backups_active || false}"
+        say "Region:           #{droplet.region.name} - #{droplet.region.slug}"
+        say "Image:            #{droplet.image.id} - #{droplet.image.name}"
+        say "Size:             #{droplet.size_slug.upcase}"
+        say "Backups Active:   #{!droplet.backup_ids.empty?}"
 
         @app.call(env)
       end
