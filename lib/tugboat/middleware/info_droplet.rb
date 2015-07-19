@@ -21,16 +21,15 @@ module Tugboat
           status_color = RED
         end
 
+        require 'pry'; binding.pry;
+
         say
         say "Name:             #{droplet.name}"
         say "ID:               #{droplet.id}"
         say "Status:           #{status_color}#{droplet.status}#{CLEAR}"
         say "IP4:              #{droplet.networks.v4[0].ip_address}"
-        say "IP6:              #{droplet.networks.v6[0].ip_address}"
-
-        if droplet.private_ip_address
-	        say "Private IP:       #{droplet.private_ip_address}"
-	      end
+        say "IP6:              #{droplet.networks.v6[0].ip_address}" unless droplet.networks.v6.empty?
+        say "Private IP:       #{droplet.private_ip_address}" if droplet.private_ip_address
 
         say "Region:           #{droplet.region.name} - #{droplet.region.slug}"
         say "Image:            #{droplet.image.id} - #{droplet.image.name}"
