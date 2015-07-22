@@ -21,8 +21,6 @@ module Tugboat
           status_color = RED
         end
 
-        require 'pry'; binding.pry;
-
         say
         say "Name:             #{droplet.name}"
         say "ID:               #{droplet.id}"
